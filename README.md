@@ -1,6 +1,6 @@
 # Aditya Patiyal | Personal Profile Website
 
-This repository contains the source code for my **personal profile / portfolio website**.  
+This repository contains the source code for my **personal portfolio website**.  
 The website brings together my introduction, skills, projects, and important social links in a single, clean, and responsive interface.
 
 ---
@@ -43,3 +43,13 @@ The website features a curated list of my projects with:
 
 ## 📌 Purpose
 This website serves as a central place to showcase my work, skills, and online presence.
+
+---
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aditya-Patiyal/Profile.git
+2.	Open the project folder.
+3.	Open index.html in your browser
+(or use Live Server in VS Code)
