@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Aditya</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I Am <span class="highlight">Aditya</span>
+                    </h1>
+                    <p class="hero-subtitle">Full-Stack Developer & AI/ML Enthusiast</p>
+                    <div class="hero-description">
+                        <p>Building the future with code, one project at a time</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="mailto:aditya.patiyal007@gmail.com" class="social-btn gmail" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aditya-patiyal-426284249/" class="social-btn linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Aditya-Patiyal" class="social-btn github" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://dev.to/aditya-patiyal" class="social-btn dev" target="_blank">
+                        <i class="fab fa-dev"></i>
+                    </a>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="https://docs.google.com/document/d/11MiDvPNpNzjk7JTQxmCXVbKiP7ilTCE_/edit?usp=sharing&ouid=100368511260737622180&rtpof=true&sd=true" class="btn-primary" target="_blank">
+                        <i class="fas fa-download"></i>
+                        View Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-animation"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a third-year Computer Science student specializing in AI & ML, with a strong foundation in full-stack web development. Skilled in HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB/SQL, I build responsive, scalable MERN applications with features like authentication, dashboards, and real-time chat.</p>
+                    <br>
+                    <p>On the AI side, I work with Python, PyTorch, and computer vision models, exploring web + ML integration for live inference. Passionate about combining elegant front-ends with intelligent back-ends, I focus on building practical, production-ready solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/ff0000/ffffff?text=MERN+Chat+App" alt="MERN Chat Application">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditya-Patiyal/mern-chat-app" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Real-time Chat App</h3>
+                        <p>Full-stack MERN application with Socket.io for real-time messaging, JWT authentication, and responsive design</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/ff0000/ffffff?text=AI+Vision+Model" alt="Computer Vision Project">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditya-Patiyal/computer-vision-model" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Computer Vision Model</h3>
+                        <p>PyTorch-based image classification model with web integration for live inference and data visualization</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/ff0000/ffffff?text=Task+Manager" alt="Task Management Dashboard">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditya-Patiyal/task-manager-dashboard" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager Dashboard</h3>
+                        <p>React-based productivity app with drag-and-drop functionality, user authentication, and data persistence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">RESTful APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>AI/ML</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">Computer Vision</span>
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Data Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Postman</span>
+                        <span class="skill-item">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer-title">Let's Connect</h3>
+            <div class="footer-social">
+                <a href="mailto:aditya.patiyal..07@gmail.com" class="footer-social-btn gmail" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aditya-patiyal-426284249/" class="footer-social-btn linkedin" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Aditya-Patiyal" class="footer-social-btn github" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://dev.to/aditya-patiyal" class="footer-social-btn dev" target="_blank">
+                    <i class="fab fa-dev"></i>
+                </a>
+            </div>
+            <p class="footer-text">Made with ❤️ by Aditya</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
